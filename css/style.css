@@ -159,23 +159,6 @@
             font-weight: 600;
             margin-left: -3px;
         }
-        /*text animation*/
-        /* .text-two {
-        width: 0ch;
-        overflow: hidden;
-        white-space: nowrap;
-        animation: text 5s infinite;
-        border-right: 3px solid black;
-    }
-    
-    @keyframes text {
-        0% {
-            width: 0ch;
-        }
-        50% {
-            width: 16ch;
-        }
-    } */
         /* text animation */
         
         .home .text-three {
@@ -224,7 +207,7 @@
                 margin: 0 -30px 0 30px;
             }
         }
-        /* text fou started */
+        /* text four started */
         
         .home .text-four {
             font-size: 23px;
