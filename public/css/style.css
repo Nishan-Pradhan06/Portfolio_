@@ -180,6 +180,7 @@
             animation: slide 3s steps(2) infinite;
         }
         
+        
         @keyframes slide {
             100% {
                 top: -50px;
