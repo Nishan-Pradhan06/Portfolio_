@@ -83,6 +83,7 @@ nav .navbar .menu li {
 .navbar .menu a:hover {
     color: #183153;
     font-size: 20px;
+    font-weight: 700;
 }
 
 nav.sticky .menu a {
@@ -90,7 +91,8 @@ nav.sticky .menu a {
 }
 
 nav.sticky .menu a:hover {
-    color: #0E2431;
+    color: #ffffff;
+    font-weight: 600;
 }
 
 .navbar .media-icons a {
