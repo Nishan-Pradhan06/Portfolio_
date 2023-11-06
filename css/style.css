@@ -276,7 +276,7 @@ section .title {
 
 section .title span {
     color: #0E2431;
-    font-size: 30px;
+    font-size: 38px;
     font-weight: 600;
     position: relative;
     padding-bottom: 8px;
@@ -541,7 +541,13 @@ article .icon {
 
 
 
+.section__text p {
+    font-weight: 600;
+}
 
+.section__text__p1 {
+    text-align: center;
+}
 
 
 
