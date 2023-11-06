@@ -1,7 +1,8 @@
 /* Google Font CDN Link */
-        
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -9,25 +10,27 @@
     text-decoration: none;
     scroll-behavior: smooth;
 }
+
 /* Custom Scroll Bar CSS */
 
- ::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 10px;
 }
 
- ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     background: #f1f1f1;
 }
 
- ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background: #454f6c;
     border-radius: 12px;
     transition: all 0.3s ease;
 }
 
- ::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
     background: #183153;
 }
+
 /* navbar styling */
 
 nav {
@@ -104,6 +107,7 @@ nav.sticky .menu a:hover {
 nav.sticky .media-icons a {
     color: #FFF;
 }
+
 /* Side Navigation Menu Button CSS */
 
 nav .menu-btn,
@@ -129,6 +133,7 @@ nav.sticky .menu-btn {
 .navbar .menu .menu-btn {
     color: #fff;
 }
+
 /* home section styling */
 
 .home {
@@ -161,6 +166,7 @@ nav.sticky .menu-btn {
     font-weight: 600;
     margin-left: -3px;
 }
+
 /* text animation */
 
 .home .text-three {
@@ -210,6 +216,7 @@ nav.sticky .menu-btn {
         margin: 0 -30px 0 30px;
     }
 }
+
 /* text four started */
 
 .home .text-four {
@@ -240,6 +247,7 @@ nav.sticky .menu-btn {
     background-color: #fff;
     color: #183153;
 }
+
 /* About Section Styling */
 /* Those Elements Where We Have Apply Same CSS,
  I'm Secting Directly 'Section Tag' and 'Class'  */
@@ -341,6 +349,7 @@ section .button button:hover {
     background-color: #fff;
     color: #183153;
 }
+
 /* My Skills CSS */
 
 /* .skills {
@@ -406,6 +415,7 @@ section .button button:hover {
     font-size: 60px;
     color: #183153;
 }
+
 /* My Services CSS */
 
 .services .boxes {
@@ -458,6 +468,89 @@ section .button button:hover {
 .services .boxes .box:hover p {
     color: #fff;
 }
+
+
+.experience-sub-title {
+    color: rgb(85, 85, 85);
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.about-containers,
+.about-details-container {
+    display: flex;
+}
+
+.experience-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+.article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+article {
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+
+article .icon {
+    cursor: default;
+}
+
+.icon {
+    height: 2rem;
+}
+
+.section-container {
+    gap: 4rem;
+    height: 80%;
+}
+
+.section__pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Contact Me CSS */
 
 .contact {
@@ -595,9 +688,11 @@ section .button button:hover {
         width: 86%;
         padding: 30px 40px 40px 35px;
     }
+
     .contact .content .left-side {
         left: -64px;
     }
+
     .contact .content .right-side {
         width: 75%;
         margin-left: 55px;
@@ -621,9 +716,11 @@ section .button button:hover {
         margin: 40px 59px;
         height: 100%;
     }
+
     .contact .content {
         flex-direction: column-reverse;
     }
+
     .contact .content .left-side {
         width: 100%;
         flex-direction: row;
@@ -632,9 +729,11 @@ section .button button:hover {
         flex-wrap: wrap;
         left: 10px;
     }
+
     .contact .content .left-side::before {
         display: none;
     }
+
     .contact .content .right-side {
         width: 100%;
         margin-left: 0;
@@ -646,9 +745,11 @@ section .button button:hover {
         margin: 40px 55px;
         height: 100%;
     }
+
     .contact .content .left-side {
         margin-top: -1px;
     }
+
     .content .right-side .topic-text {
         font-size: 22px;
     }
@@ -688,6 +789,7 @@ section .button button:hover {
         height: 100%;
     }
 }
+
 /* Footer CSS */
 
 footer {
@@ -711,6 +813,7 @@ footer .text span a {
 footer .text span a:hover {
     text-decoration: underline;
 }
+
 /* Scroll TO Top Button CSS */
 
 .scroll-button a {
@@ -726,6 +829,7 @@ footer .text span a:hover {
     box-shadow: rgba(0, 0, 0, 0.15);
     display: none;
 }
+
 /* Responsive Media Query */
 
 @media (max-width: 1190px) {
@@ -739,15 +843,18 @@ footer .text span a:hover {
         justify-content: center;
         flex-direction: column;
     }
+
     .about .about-details .left {
         display: flex;
         justify-content: center;
         width: 100%;
     }
+
     .about-details .right {
         width: 90%;
         margin: 40px 0;
     }
+
     .services .boxes .box {
         margin: 20px 0;
         width: calc(100% / 2 - 20px);
@@ -765,6 +872,7 @@ footer .text span a:hover {
     nav .navbar {
         width: 90%;
     }
+
     nav .navbar .menu {
         position: fixed;
         left: -100%;
@@ -778,46 +886,57 @@ footer .text span a:hover {
         align-items: center;
         transition: all 0.5s ease;
     }
+
     .navbar.active .menu {
         left: 0;
     }
+
     nav .navbar .menu a {
         font-size: 23px;
         display: block;
         color: #fff;
         margin: 10px 0;
     }
+
     nav.sticky .menu a:hover {
         color: #183153;
     }
+
     nav .navbar .media-icons {
         display: none;
     }
+
     nav .menu-btn,
     .navbar .menu .cancel-btn {
         display: block;
     }
+
     .home .text-two {
         font-size: 65px;
     }
+
     .home .text-three {
         font-size: 35px;
     }
+
     .skills .skills-details {
         align-items: center;
         justify-content: center;
         flex-direction: column;
     }
+
     .skills-details .text {
         width: 100%;
         margin-bottom: 50px;
     }
+
     .skills-details .boxes {
         justify-content: center;
         align-items: center;
         width: 100%;
         margin: -48px;
     }
+
     .services .boxes .box {
         margin: 20px 0;
         width: 100%;
@@ -828,12 +947,15 @@ footer .text span a:hover {
     .home .text-one {
         font-size: 23px;
     }
+
     .home .text-two {
         font-size: 50px;
     }
+
     .home .text-three {
         font-size: 35px;
     }
+
     .home .text-four {
         font-size: 21px;
     }
@@ -843,9 +965,11 @@ footer .text span a:hover {
     .home .text-two {
         font-size: 45px;
     }
+
     .home .text-three {
         font-size: 33px;
     }
+
     .skills-details .boxes .per {
         font-size: 50px;
         color: #183153;
@@ -856,12 +980,15 @@ footer .text span a:hover {
     .home .text-one {
         font-size: 20px;
     }
+
     .home .text-two {
         font-size: 37px;
     }
+
     .home .text-three {
         font-size: 30px;
     }
+
     .home .text-four {
         font-size: 16px;
     }
@@ -871,12 +998,15 @@ footer .text span a:hover {
     .home .text-one {
         font-size: 23px;
     }
+
     .home .text-two {
         font-size: 35px;
     }
+
     .home .text-three {
         font-size: 27px;
     }
+
     .home .text-four {
         font-size: 16px;
     }
@@ -886,12 +1016,15 @@ footer .text span a:hover {
     .home .text-one {
         font-size: 20px;
     }
+
     .home .text-two {
         font-size: 37px;
     }
+
     .home .text-three {
         font-size: 30px;
     }
+
     .home .text-four {
         font-size: 16px;
     }
