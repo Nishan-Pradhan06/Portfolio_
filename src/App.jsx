@@ -1,5 +1,6 @@
 import { SpeedInsights } from '@vercel/speed-insights/react';
 import './App.css'
+import './index.css'
 import NavBar from './pages/NavBar'
 import Footer from './pages/Footer'
 import Home from './pages/Home'

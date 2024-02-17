@@ -1168,3 +1168,47 @@ a,
 .btn-container {
   gap: 1rem;
 }
+.custom-div {
+  width: 60%;
+  /* Equivalent to w-3/5 */
+  max-width: 400px;
+  /* Equivalent to md:w-[400px] */
+  background-color: #3b82f6;
+  /* Equivalent to bg-blue-500 */
+  color: white;
+  /* Equivalent to text-white */
+  position: fixed;
+  /* Equivalent to fixed */
+  left: 50%;
+  /* Centers the element horizontally */
+  transform: translateX(-50%);
+  /* Centers the element horizontally */
+  bottom: 16px;
+  /* Equivalent to bottom-16 */
+  height: 40px;
+  /* Equivalent to h-10 */
+  line-height: 40px;
+  /* Vertically centers content */
+  border-radius: 9999px;
+  /* Equivalent to rounded */
+  display: flex;
+  /* Equivalent to flex */
+  align-items: center;
+  /* Equivalent to items-center */
+  justify-content: center;
+  /* Equivalent to justify-center */
+  animation: fadeDown 1s ease-in-out 0.4s 1 forwards;
+  /* Equivalent to animate-fade-down and others */
+}
+
+@keyframes fadeDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
