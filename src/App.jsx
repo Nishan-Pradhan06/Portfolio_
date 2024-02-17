@@ -1,3 +1,4 @@
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import './App.css'
 import NavBar from './pages/NavBar'
 import Footer from './pages/Footer'
@@ -12,6 +13,7 @@ function App() {
   return (
     <>
       {/* <YourComponent /> */}
+      <SpeedInsights />
       <NavBar />
       <Home />
       <About />
