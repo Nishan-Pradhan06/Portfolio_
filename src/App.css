@@ -664,24 +664,7 @@ article .icon {
   margin-top: 12px;
 }
 
-.right-side .button input[type="submit"] {
-  outline: none;
-  padding: 8px 16px;
-  border-radius: 6px;
-  font-size: 18px;
-  font-weight: 400;
-  background: #183153;
-  color: #fff;
-  border: 2px solid transparent;
-  cursor: pointer;
-  transition: all 0.4s ease;
-}
 
-.button input[type="submit"]:hover {
-  border-color: #183153;
-  background-color: #fff;
-  color: #183153;
-}
 
 @media (max-width: 1188px) {
   .contact {
@@ -1212,3 +1195,76 @@ a,
     transform: translateY(0);
   }
 }
+
+button {
+  font-family: inherit;
+  font-size: 20px;
+  background: #183153;
+  color: white;
+  padding: 0.5rem 1rem;
+  padding-left: 0.9em;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+button span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+}
+
+button svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+
+button:hover .svg-wrapper {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+button:hover svg {
+  transform: translateX(1.2em) rotate(45deg) scale(1.1);
+}
+
+button:hover span {
+  transform: translateX(5em);
+  
+}
+
+button:active {
+  transform: scale(0.95);
+  
+}
+
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
+  }
+
+  to {
+    transform: translateY(-0.1em);
+  }
+}/* .right-side .button input[type="submit"] {
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 400;
+  background: #183153;
+  color: #fff;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.button input[type="submit"]:hover {
+  border-color: #183153;
+  background-color: #fff;
+  color: #183153;
+} */

@@ -86,15 +86,32 @@ export const Contacts = () => {
                             <div class="input-box message-box">
                                 <textarea name="message" placeholder="Enter your message"></textarea>
                             </div>
-                            <div class="button">
-                                <input type="submit" disabled={isButtonDisabled} value="Send Now" />
-                            </div>
+                            <button type="submit" disabled={isButtonDisabled} value="Send Now">
+                                <div class="svg-wrapper-1">
+                                    <div class="svg-wrapper">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 24 24"
+                                            width="24"
+                                            height="24"
+                                        >
+                                            <path fill="none" d="M0 0h24v24H0z"></path>
+                                            <path
+                                                fill="currentColor"
+                                                d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                                            ></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <span>Send</span>
+                            </button>
+
                         </form>
                         {notify && (
                             <div
                                 className="w-3/5 md:w-[400px] bg-blue-500 text-white fixed mx-auto  bottom-16 h-10 rounded flex items-center justify-center animate-fade-down animate-once animate-duration-1000 animate-delay-400 animate-ease-in-out"
                             >
-                                <p className="font-semibold">{message}</p>
+                                <p style=" fontstyle:font-semibold " className="">{message}</p>
                             </div>
                         )}
                     </div>
