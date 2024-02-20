@@ -1018,6 +1018,7 @@ footer .text span a:hover {
     font-size: 16px;
   }
 }
+
 a,
 .btn {
   transition: all 300ms ease;
@@ -1151,6 +1152,7 @@ a,
 .btn-container {
   gap: 1rem;
 }
+
 .custom-div {
   width: 60%;
   /* Equivalent to w-3/5 */
@@ -1234,12 +1236,12 @@ button:hover svg {
 
 button:hover span {
   transform: translateX(5em);
-  
+
 }
 
 button:active {
   transform: scale(0.95);
-  
+
 }
 
 @keyframes fly-1 {
@@ -1250,7 +1252,9 @@ button:active {
   to {
     transform: translateY(-0.1em);
   }
-}/* .right-side .button input[type="submit"] {
+}
+
+/* .right-side .button input[type="submit"] {
   outline: none;
   padding: 8px 16px;
   border-radius: 6px;
@@ -1268,3 +1272,45 @@ button:active {
   background-color: #fff;
   color: #183153;
 } */
+.custom-container {
+  width: 100%;
+  /* w-3/5 */
+  max-width: 400px;
+  /* md:w-[400px] */
+  background-color: #183153;
+  /* bg-blue-500 */
+  color: #fff;
+  /* text-white */
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 16px;
+  height: 40px;
+  /* h-10 */
+  border-radius: 9999px;
+  /* rounded-full */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  /* Hidden by default */
+  animation: fadeDown 1s 0.4s ease-in-out forwards;
+  /* animate-fade-down animate-once animate-duration-1000 animate-delay-400 animate-ease-in-out */
+}
+
+.custom-text {
+  font-weight: 600;
+  /* fontStyle: "font-semibold" */
+}
+
+@keyframes fadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

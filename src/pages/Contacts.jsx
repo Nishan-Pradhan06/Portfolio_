@@ -1,4 +1,3 @@
-
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
@@ -48,47 +47,46 @@ export const Contacts = () => {
 
     return (
         <>
-            <section class="contact" id="contact">
-                <p class="section__text__p1">Get in Touch</p>
-                <div class="title"><span>Contact Me</span></div>
-                <div class="content">
-                    <div class="left-side">
-                        <div class="address details">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div class="topic">Address</div>
-                            <div class="text--two">Morang</div>
-                            <div class="text--two">Belbari-11-Laxmimarga</div>
+            <section className="contact" id="contact">
+                <p className="section__text__p1">Get in Touch</p>
+                <div className="title"><span>Contact Me</span></div>
+                <div className="content">
+                    <div className="left-side">
+                        <div className="address details">
+                            <i className="fas fa-map-marker-alt"></i>
+                            <div className="topic">Address</div>
+                            <div className="text--two">Morang</div>
+                            <div className="text--two">Belbari-11-Laxmimarga</div>
                         </div>
-                        <div class="phone details">
-                            <i class="fas fa-phone-alt"></i>
-                            <div class="topic">Phone</div>
+                        <div className="phone details">
+                            <i className="fas fa-phone-alt"></i>
+                            <div className="topic">Phone</div>
 
-                            <div class="text--two">+977 9817326306</div>
+                            <div className="text--two">+977 9817326306</div>
                         </div>
-                        <div class="email details">
-                            <i class="fas fa-envelope"></i>
-                            <div class="topic">Email</div>
+                        <div className="email details">
+                            <i className="fas fa-envelope"></i>
+                            <div className="topic">Email</div>
 
-                            <div class="text--two">nishanpradhan500@gmail.com</div>
+                            <div className="text--two">nishanpradhan500@gmail.com</div>
                         </div>
                     </div>
-                    <div class="right-side">
-                        <div class="topic-text">Message Me!</div>
-                        <p>For the further details you can contact me from here by direct malling me or you can personally message me in instagram. </p>
-                        <form ref={form}
-                            onSubmit={sendEmail}>
-                            <div class="input-box">
+                    <div className="right-side">
+                        <div className="topic-text">Message Me!</div>
+                        <p>For further details, you can contact me from here by direct mailing me or you can personally message me on Instagram.</p>
+                        <form ref={form} onSubmit={sendEmail}>
+                            <div className="input-box">
                                 <input type="text" name="from_name" placeholder="Enter your name" required />
                             </div>
-                            <div class="input-box">
+                            <div className="input-box">
                                 <input type="text" name="from_email" placeholder="Enter your email" required />
                             </div>
-                            <div class="input-box message-box">
+                            <div className="input-box message-box">
                                 <textarea name="message" placeholder="Enter your message"></textarea>
                             </div>
                             <button type="submit" disabled={isButtonDisabled} value="Send Now">
-                                <div class="svg-wrapper-1">
-                                    <div class="svg-wrapper">
+                                <div className="svg-wrapper-1">
+                                    <div className="svg-wrapper">
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 24 24"
@@ -108,11 +106,10 @@ export const Contacts = () => {
 
                         </form>
                         {notify && (
-                            <div
-                                className="w-3/5 md:w-[400px] bg-blue-500 text-white fixed mx-auto  bottom-16 h-10 rounded flex items-center justify-center animate-fade-down animate-once animate-duration-1000 animate-delay-400 animate-ease-in-out"
-                            >
-                                <p style=" fontstyle:font-semibold " className="">{message}</p>
+                            <div class="custom-container">
+                                <p class="custom-text">{message}</p>
                             </div>
+
                         )}
                     </div>
                 </div>
@@ -120,4 +117,5 @@ export const Contacts = () => {
         </>
     )
 }
+
 export default Contacts;
