@@ -480,6 +480,7 @@ section .button button:hover {
 .about-containers,
 .about-details-container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .experience-details-container {
