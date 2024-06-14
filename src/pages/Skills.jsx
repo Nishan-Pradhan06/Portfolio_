@@ -20,7 +20,7 @@ const Skills = () => {
                                             class="icon" />
                                         <div>
                                             <h3>HTML</h3>
-                                            <p>Intermediate</p>
+                                            <p>Expert</p>
                                         </div>
                                     </article>
                                     <article>

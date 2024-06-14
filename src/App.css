@@ -9,6 +9,7 @@
   box-sizing: border-box;
   text-decoration: none;
   scroll-behavior: smooth;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 /* Custom Scroll Bar CSS */
@@ -39,7 +40,6 @@ nav {
   padding: 20px 0;
   z-index: 998;
   transition: all 0.3s ease;
-  font-family: 'Ubuntu', sans-serif;
 }
 
 nav.sticky {
@@ -135,15 +135,13 @@ nav.sticky .menu-btn {
 }
 
 /* home section styling */
-
 .home {
   height: 100vh;
   width: 100%;
-  /* background: url("img/background.png") no-repeat; */
+  /* background: url("../public/background.png") no-repeat; */
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
-  font-family: 'Ubuntu', sans-serif;
+  z-index: 1000;
 }
 
 .home .home-content {
@@ -170,7 +168,7 @@ nav.sticky .menu-btn {
 /* text animation */
 
 .home .text-three {
-  font-size: 40px;
+  font-size: 30px;
   margin: 6px 0;
   color: #183153;
   list-style-type: none;
@@ -184,10 +182,8 @@ nav.sticky .menu-btn {
 
 .text-three li {
   position: relative;
-  top: o;
-  animation: slide 3s steps(2) infinite;
+  animation: slide 4s steps(6) infinite;
 }
-
 
 @keyframes slide {
   100% {
@@ -207,7 +203,7 @@ nav.sticky .menu-btn {
   height: 45px;
   background: #fff;
   border-left: 2px solid black;
-  animation: typing 1.5s steps(7) infinite;
+  animation: typing 2s steps(8) infinite;
 }
 
 @keyframes typing {
@@ -247,7 +243,6 @@ nav.sticky .menu-btn {
   background-color: #fff;
   color: #183153;
 }
-
 /* About Section Styling */
 /* Those Elements Where We Have Apply Same CSS,
  I'm Secting Directly 'Section Tag' and 'Class'  */
@@ -256,25 +251,25 @@ section {
   padding-top: 40px;
 }
 
-section .content {
+.content {
   width: 80%;
   margin: 40px auto;
   font-family: 'Poppins', sans-serif;
 }
 
-.about .about-details {
+.about-details {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-section .title {
+.title {
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
 }
 
-section .title span {
+.title span {
   color: #0E2431;
   font-size: 38px;
   font-weight: 600;
@@ -282,8 +277,8 @@ section .title span {
   padding-bottom: 8px;
 }
 
-section .title span::before,
-section .title span::after {
+.title span::before,
+.title span::after {
   content: '';
   position: absolute;
   height: 3px;
@@ -293,18 +288,18 @@ section .title span::after {
   bottom: 0;
 }
 
-section .title span::after {
+.title span::after {
   bottom: -7px;
   width: 70%;
   left: 50%;
   transform: translateX(-50%);
 }
 
-.about .about-details .left {
+.about-details .left {
   width: 45%;
 }
 
-.about .left img {
+.about-details .left img {
   height: 400px;
   width: 400px;
   object-fit: cover;
@@ -315,7 +310,7 @@ section .title span::after {
   width: 55%;
 }
 
-section .topic {
+.topic {
   color: #0E2431;
   font-size: 25px;
   font-weight: 500;
@@ -327,11 +322,11 @@ section .topic {
   color: #0E2431;
 }
 
-section .button {
+.button {
   margin: 16px 0;
 }
 
-section .button button {
+.button button {
   outline: none;
   padding: 8px 16px;
   border-radius: 4px;
@@ -344,7 +339,7 @@ section .button button {
   transition: all 0.4s ease;
 }
 
-section .button button:hover {
+.button button:hover {
   border-color: #183153;
   background-color: #fff;
   color: #183153;

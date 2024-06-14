@@ -1,22 +1,24 @@
 const Home = () => {
     return (
         <>
-            <section class="home" id="home">
-                <div class="home-content">
-                    <div class="text">
-                        <div class="text-one">Hello,</div>
-                        <div class="text-two">I'm Nishan Pradhan</div>
-                        <ul class="text-three">
-                            <li><span>Developer</span></li>
-                            <li><span>Student</span></li>
-                        </ul>
-                        <div class="text-four">From Nepal</div>
+            <main>
+                <section className="home" id="home">
+                    <div className="home-content">
+                        <header className="text">
+                            <h1 className="text-one">Hello,</h1>
+                            <h2 className="text-two">I'm Nishan Pradhan</h2>
+                            <ul className="text-three">
+                                <li><span>Flutter Developer</span></li>
+                                <li><span>Student</span></li>
+                            </ul>
+                            <p className="text-four">From Nepal</p>
+                        </header>
+                        <div className="button">
+                            <a href="#contact"><button>Hire Me</button></a>
+                        </div>
                     </div>
-                    <div class="button">
-                        <a href="#contact"><button>Hire Me</button></a>
-                    </div>
-                </div>
-            </section>
+                </section>
+            </main>
         </>
     )
 }
