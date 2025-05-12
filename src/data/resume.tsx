@@ -3,38 +3,29 @@ import { HomeIcon, NotebookIcon } from 'lucide-react';
 
 export const DATA = {
   name: 'Nishan Pradhan',
-  initials: 'DV',
-  url: 'https://dillion.io',
+  initials: 'NP',
+  url: 'https://www.nishanpradhan.com.np/',
   location: 'Morang, Nepal',
   // locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
     'Flutter developer and tech enthusiast. I love building beautiful, high-performance mobile apps and sharing what I learn. Very active on Linkedin.',
   summary:
     "I'm a BCA 5th semester student and a passionate Flutter developer, currently working on building fast, responsive, and elegant mobile apps. I started my journey in tech through hands-on practice, internships, and by constantly learning new tools and frameworks.",
-  avatarUrl: '/me.png',
+  avatarUrl: '/me.jpg',
   skills: [
-    'React',
-    'dart',
+    'Dart',
     'Flutter',
-    'solid',
-    'Flutter expert',
-    'Next.js',
-    'Typescript',
-    'Node.js',
-    'Python',
-    'Postgres',
-    'Docker',
-    'Kubernetes',
-    'Java',
-    'C++',
+    'Firebase',
+    'Github',
+    'Git',
   ],
   navbar: [
     { href: '/', icon: HomeIcon, label: 'Home' },
     // { href: '/blog', icon: NotebookIcon, label: 'Blog' },
   ],
   contact: {
-    email: 'hello@example.com',
-    tel: '+123456789',
+    email: 'nishanpradhan500@gmail.com',
+    tel: '+977 9817326306',
     social: {
       GitHub: {
         name: 'GitHub',
@@ -47,10 +38,14 @@ export const DATA = {
         name: 'LinkedIn',
         url: 'https://www.linkedin.com/in/nishan-pradhan06/',
         icon: Icons.linkedin,
-
         navbar: true,
       },
-
+      YouTube: {
+        name: 'YouTube',
+        url: 'https://www.youtube.com/@nishanpradhan06',
+        icon: Icons.youtube,
+        navbar: true,
+      },
       email: {
         name: 'Send Email',
         url: '#',
@@ -62,16 +57,6 @@ export const DATA = {
   },
 
   work: [
-    {
-      company: 'Saino Tech',
-      href: 'https://sainotech.com',
-      badges: [],
-      location: 'Remote',
-      title: 'Mobile App Developer',
-      logoUrl: '/atomic.png',
-      start: 'May 2024',
-      // end: 'Oct 2022',
-    },
     {
       company: 'Lunar IT Solution',
       badges: [],
@@ -86,11 +71,22 @@ export const DATA = {
       company: 'Saino Tech',
       href: 'https://sainotech.com',
       badges: [],
+      location: 'Remote',
+      title: 'Mobile App Developer (Freelance)',
+      logoUrl: '/atomic.png',
+      start: 'Mar 2025',
+      // end: 'Oct 2022',
+     
+    },
+    {
+      company: 'Saino Tech',
+      href: 'https://sainotech.com',
+      badges: [],
       location: 'Physical',
       title: 'Internship',
       logoUrl: '/atomic.png',
-      start: 'May 2024',
-      // end: 'Oct 2022',
+      start: 'Nov 2024',
+      end: 'Feb 2025',
     },
   ],
   education: [
@@ -101,6 +97,22 @@ export const DATA = {
       logoUrl: '/inc.jpg',
       start: '2022',
       end: '2026',
+    },
+    {
+      school: 'Siddhartha Secondary School (SSS)',
+      href: '#',
+      degree: 'School Leaving Certificate Examination',
+      logoUrl: '/sss.webp',
+      start: '2020',
+      end: '2022',
+    },
+    {
+      school: 'Mount Everest Secondary Boarding School',
+      href: '#',
+      degree: 'Secondary Education Examination (SEE)',
+      logoUrl: '/mt.png',
+      start: '2005',
+      end: '2020',
     },
   ],  
   projects: [
