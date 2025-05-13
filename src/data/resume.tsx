@@ -117,20 +117,55 @@ export const DATA = {
   ],  
   projects: [
     {
-      title: 'Echo Hub App',
-      href: 'echohub.com',
-      dates: 'Jan 2024 - Feb 2024',
+      title: 'Responsive Spacing',
+      href: 'https://pub.dev/packages/responsive_spacing_v2',
+      dates: 'Oct 2024 - Present',
       active: true,
+      description:
+        'A simple Flutter package to add responsive padding and margin widgets for consistent, adaptive spacing across different screen sizes.',
       technologies: [
         'Flutter',
         'Dart',
-        'Node js',
-        'Database',
-        'Prisma'
       ],
-    
-      image: '/flu.jpeg',
-    
+      links: [
+        {
+          type: 'Website',
+          href: 'https://pub.dev/packages/responsive_spacing_v2',
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: 'Source',
+          href: 'https://github.com/Nishan-Pradhan06/responsive_spacing_v2',
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: '/pub-dev-logo.png',
+    },
+    {
+      title: 'Digital Paana',
+      href: 'https://play.google.com/store/search?q=digital%20paana&c=apps&hl=en',
+      dates: 'Nov 2024 - Feb 2025',
+      active: true,
+      description:
+        'Digital Paana is your ultimate learning companion for NEB (National Examination Board) studies. ',
+      technologies: [
+        'Flutter',
+        'Dart',
+        'Firebase',
+      ],
+      links: [
+        {
+          type: 'Website',
+          href: 'https://digitalpaana.sainotech.com/',
+          icon: <Icons.globe className="size-3" />,
+        },
+        // {
+        //   type: 'Source',
+        //   href: 'https://play.google.com/store/search?q=digital%20paana&c=apps&hl=en',
+        //   icon: <Icons.github className="size-3" />,
+        // },
+      ],
+      image: '/digital_paana.png',
     },
     // {
     //   title: '',
@@ -163,39 +198,6 @@ export const DATA = {
     //   ],
     //   image: '',
     //   video: 'https://cdn.magicui.design/bento-grid.mp4',
-    // },
-    // {
-    //   title: 'llm.report',
-    //   href: 'https://llm.report',
-    //   dates: 'April 2023 - September 2023',
-    //   active: true,
-    //   description:
-    //     'Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.',
-    //   technologies: [
-    //     'Next.js',
-    //     'Typescript',
-    //     'PostgreSQL',
-    //     'Prisma',
-    //     'TailwindCSS',
-    //     'Shadcn UI',
-    //     'Magic UI',
-    //     'Stripe',
-    //     'Cloudflare Workers',
-    //   ],
-    //   links: [
-    //     {
-    //       type: 'Website',
-    //       href: 'https://llm.report',
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: 'Source',
-    //       href: 'https://github.com/dillionverma/llm.report',
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: '',
-    //   video: 'https://cdn.llm.report/openai-demo.mp4',
     // },
     // {
     //   title: 'Automatic Chat',
