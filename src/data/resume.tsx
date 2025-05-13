@@ -65,7 +65,7 @@ export const DATA = {
       title: 'Junior Flutter Mobile App Developer',
       logoUrl: '/lunar.jpg',
       start: 'January 2025',
-      // end: 'April 2021',
+      end: 'Present',
     },
     {
       company: 'Saino Tech',
@@ -75,7 +75,7 @@ export const DATA = {
       title: 'Mobile App Developer (Freelance)',
       logoUrl: '/atomic.png',
       start: 'Mar 2025',
-      // end: 'Oct 2022',
+      end: 'Present',
      
     },
     {
