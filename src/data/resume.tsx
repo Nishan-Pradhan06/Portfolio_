@@ -116,22 +116,22 @@ export const DATA = {
     },
   ],  
   projects: [
-    // {
-    //   title: 'Echo Hub App',
-    //   href: 'echohub.com',
-    //   dates: 'Jan 2024 - Feb 2024',
-    //   active: true,
-    //   technologies: [
-    //     'Flutter',
-    //     'Dart',
-    //     'Node js',
-    //     'Database',
-    //     'Prisma'
-    //   ],
+    {
+      title: 'Echo Hub App',
+      href: 'echohub.com',
+      dates: 'Jan 2024 - Feb 2024',
+      active: true,
+      technologies: [
+        'Flutter',
+        'Dart',
+        'Node js',
+        'Database',
+        'Prisma'
+      ],
     
-    //   image: '/flu.jpeg',
+      image: '/flu.jpeg',
     
-    // },
+    },
     // {
     //   title: '',
     //   href: 'https://magicui.design',
